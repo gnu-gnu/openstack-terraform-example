@@ -1,0 +1,9 @@
+master_nodes = ["m-k8s"]
+worker_nodes = ["w1-k8s", "w2-k8s", "w3-k8s"]
+network_name = "private"
+master_flavor_name = "k8s-master"
+worker_flavor_name = "k8s-worker"
+master_cpu_cores = "2"
+worker_cpu_cores = "1"
+memory_allocate = "4096"
+disk_size = "40"
